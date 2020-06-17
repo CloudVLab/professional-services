@@ -76,7 +76,7 @@ def run(argv=None):
         'a file in a Google Storage Bucket.',
         # This example file contains a total of only 10 lines.
         # Useful for developing on a small set of data.
-        default='gs://python-dataflow-example/data_files/head_usa_names.csv')
+        default='gs://spls/gsp290/data_files/head_usa_names.csv')
 
     # This defaults to the lake dataset in your BigQuery project. You'll have
     # to create the lake dataset yourself using this command:
